@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    background-image: url(../logo/background.jpg);
+    width: 1366px;
+    height: 1000px;
+    font-family: "Arial GEO BoldItalic", sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+.logo{
+    width: 174px;
+    display: flex;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.logo-text {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ff6600;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    gap: 18px;
+}
+.navigation a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: red;
+}
+.login{
+    color: orange;
+}
+.cart-container{
+    display: flex;
+    align-items: center;
+    width: 145px;
+    margin-top: -45px;
+    margin-right: 235px;
+}
+.you-cart-color{
+    color:  green;
+}
+.price-colr{
+    color: red;
+}
+.cart{
+    font-size: 12px;
+}
+.cart-icon{
+    height: 35px;
+}
+.cart-icon img{
+    width: 50px;
+    height: 40px;
+}
+.search-container{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    background-color: orange;
+    margin-top: 20px;
+}
+.search-container input{
+    width: 300px;
+    background: white;
+    height: 35px;
+    border: 0;
+    padding-left: 10px;
+    margin-left: 220px;
+}
+.search-container img{
+    width: 33px;
+    height: 30px;
+    margin-left: 700px;
+    background-color: rgb(26 201 250);
+}
+.search-logo{
+    position: absolute;
+    width: 30px;
+}
+.search-container p{
+    margin-left: 55px;
+    font-size: 20px;
+    color: white;
+}
+.menu-list{
+    width: 200px;
+    border: 2px solid orange;
+}
+.menu-list ul{
+    margin-top: 0;
+}
+.menu-list ul li{
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    list-style-type: none;
+}
+.menu-list li{
+
+    padding-top: 20px;
+    border-bottom: 1px solid orange;
+}
+.menu-list a{
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+}
+.extention-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 3px solid red;
+    margin-top: 40px;
+}
+.extention-container .ex-card{
+    margin: 20px;
+}
+.ex-card{
+    width: 20%;
+    height: 180px;
+    border: 2px solid orange;
+    padding:10px 0 ;
+}
+.ex-card  h6,
+.ex-pris{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    margin: 10px 0px 30px;
+}
+.ex-pris{
+    color: white;
+    width: 70px;
+    height: 28px;
+    background-color: green;
+    margin-left: 60px;
+    align-items: center;
+}
+.ex-pris-icon{
+    margin-left: 160px;
+    margin-top: -55px;
+}
+.ex-img img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+.reclam{
+    margin-top: -265px;
+    margin-left: 260px;
+    width: 700px;
+    height: 250px;
+}
+.card-extention-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 130px;
+    margin-left: -930px;
+    gap: 50px;
+}
+.finish-container{
+    margin-top: 25px;
+    background-color: orange;
+    height: 190px;
+}
+.finish{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.finish img{
+    margin-top: 10px;
+}
+.finish-cash img{
+    display: flex;
+    margin-left: 900px;
+}
+.finish-phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 30px;
+}
