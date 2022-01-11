@@ -1,8 +1,8 @@
 body{
     margin: 0;
     background-image: url(../logo/background.jpg);
-    width: 1366px;
-    height: 1000px;
+}
+header{
     font-family: "Arial GEO BoldItalic", sans-serif;
 }
 .container{
@@ -48,7 +48,7 @@ body{
     align-items: center;
     width: 145px;
     margin-top: -45px;
-    margin-right: 235px;
+    padding-left: 690px;
 }
 .you-cart-color{
     color:  green;
@@ -80,6 +80,27 @@ body{
     border: 0;
     padding-left: 10px;
     margin-left: 220px;
+}
+.searchpage{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    background-color: orange;
+    margin-top: 20px;
+}
+.searchpage input{
+    width: 300px;
+    background: white;
+    height: 35px;
+    border: 0;
+    padding-left: 10px;
+    margin-left: 300px;
+}
+.searchpage img{
+    width: 33px;
+    height: 30px;
+    margin-left: 630px;
+    background-color: orange;
 }
 .search-container img{
     width: 33px;
@@ -171,7 +192,7 @@ body{
 .card-extention-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: center;
     margin-top: 130px;
     margin-left: -930px;
     gap: 50px;
